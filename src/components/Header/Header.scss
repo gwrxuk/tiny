@@ -1,0 +1,22 @@
+.header {
+  border: 1px solid #00f;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 8px 0;
+  .avatar {
+    margin-left: 20px;
+    .status {
+      font-size: 1.2em;
+    }
+    .name {
+      font-size: 1em;
+      color: #ddd;
+      text-align: right;
+    }
+  }
+  .avatar-icon {
+    width: 30px;
+    margin: 0 20px;
+  }
+}

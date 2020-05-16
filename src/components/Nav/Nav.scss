@@ -1,0 +1,21 @@
+.nav {
+  border: 1px solid #0f0;
+  flex: 0 1 20%;
+  background-color: #000;
+
+  .img-wrap {
+    width: 20%;
+    margin: 5% auto 10%; 
+  }
+
+  .menu {
+    .item {
+      color: #fff;
+      padding: 6% 0 6% 20%;
+      cursor: pointer;
+      &:hover {
+        background-color: #ccc;
+      }
+    } 
+  }
+}
