@@ -1,32 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './Logo.png';
 import { connect } from 'react-redux';
 
-import './App.css';
+import Checkout from './components/Checkout';
 
-import Nav from './components/Nav';
-import Header from './components/Header';
-import ContactUs from './components/contactus';
+
 
 
 
 class App extends React.Component {
   render() {
-    const {
-      selectedMenu = '',
-    } = this.props;
-    let content = <ContactUs />
+
     return (
       <div className="app">
-        <Nav />
-        <div className="panel">
-          <Header />
-          <div className="menu-text"> { selectedMenu }</div>
-          <div className="content-wrap">
-            { content }
-          </div>
-        </div> 
-      </div> 
+        <img src={logo} alt="logo"></img>
+        <Checkout />
+      </div>
     );
   }
 }
