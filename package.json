@@ -14,7 +14,7 @@
     "@testing-library/react": "*",
     "@testing-library/user-event": "*",
     "i18next": "*",
-    "node-sass": "^6.0.0",
+    "node-sass": "^7.0.3",
     "react": "*",
     "react-dom": "*",
     "react-i18next": "*",
@@ -35,7 +35,7 @@
     "extends": "react-app"
   },
   "devDependencies": {
-    "node-sass": "^6.0.0",
+    "node-sass": "^7.0.3",
     "sass-loader": "^11.1.1"
   },
   "browserslist": {
